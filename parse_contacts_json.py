@@ -15,15 +15,7 @@ def extract_contact_details(html_content, filename):
     details = {
         "entryTitle": filename,  # filename without .html
         "title": None,
-        "address": [{
-            "title": None,
-            "addressLine01": None,
-            "addressLine02": None,
-            "city": None,
-            "county": None,
-            "postcode": None,
-            "country": None
-        }],
+        "address": [],
         "email": [],
         "telephone": [],
         "website": [],
@@ -35,31 +27,37 @@ def extract_contact_details(html_content, filename):
         "other": extract_plain_text(html_content)
     }
     
-    # Extract emails - can be multiple
+    # Extract emails - can be multiple, but deduplicate
     email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
     emails = re.findall(email_pattern, html_content)
+    seen_emails = set()
     for email in emails:
-        details["email"].append({
-            "label": email,
-            "email": email
-        })
+        if email not in seen_emails:
+            seen_emails.add(email)
+            details["email"].append({
+                "label": email,
+                "email": email
+            })
     
-    # Parse telephone numbers - can be multiple
-    phone_pattern = r'\b(?:01\d{3,4}|02\d{3,4}|\+44)\s?[\d\s()+-]*\d[\d\s()+-]*\b'
+    # Parse telephone numbers - can be multiple, but deduplicate
+    # Updated pattern to catch 0300 and other formats
+    phone_pattern = r'\b(?:0300\s?123\s?\d{4}|01\d{3,4}\s?[\d\s()-]+|02\d{3,4}\s?[\d\s()-]+|\+44[\d\s()-]+)\b'
     phones = re.findall(phone_pattern, html_content)
+    seen_phones = set()
     for phone in phones:
         phone_clean = phone.strip()
-        details["telephone"].append({
-            "label": phone_clean,
-            "telephone": phone_clean,
-            "extension": None
-        })
+        if phone_clean not in seen_phones:
+            seen_phones.add(phone_clean)
+            details["telephone"].append({
+                "label": phone_clean,
+                "telephone": phone_clean,
+                "extension": None
+            })
     
     # Parse postcodes (UK format)
     postcode_pattern = r'\b[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2}\b'
     postcodes = re.findall(postcode_pattern, html_content)
-    if postcodes:
-        details["address"][0]["postcode"] = postcodes[0].strip()
+    postcode = postcodes[0].strip() if postcodes else None
     
     # Parse URLs from href attributes
     url_pattern = r'href=["\']([^"\']+)["\']'
@@ -113,20 +111,21 @@ def extract_contact_details(html_content, filename):
         if county.lower() == "cheshire":
             county = None
     
-    # Populate address fields
-    if address_lines:
-        details["address"][0]["title"] = address_lines[0]
-        details["address"][0]["addressLine01"] = address_lines[0] if address_lines else None
-        details["address"][0]["addressLine02"] = address_lines[1] if len(address_lines) > 1 else None
-    
-    if city:
-        details["address"][0]["city"] = city
-    if county:
-        details["address"][0]["county"] = county
-    
-    # Set title from first line if available
-    if address_lines:
-        details["title"] = address_lines[0]
+    # Populate address fields only if we have address data
+    if address_lines or city or county or postcode:
+        address_obj = {
+            "title": address_lines[0] if address_lines else None,
+            "addressLine01": address_lines[0] if address_lines else None,
+            "addressLine02": address_lines[1] if len(address_lines) > 1 else None,
+            "city": city,
+            "county": county,
+            "postcode": postcode,
+            "country": None
+        }
+        details["address"] = [address_obj]
+        # Set title from first line if available
+        if address_lines:
+            details["title"] = address_lines[0]
     
     return details
 
