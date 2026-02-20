@@ -1,0 +1,2 @@
+﻿<div class="cec-address" itemscope itemtype="http://schema.org/Organization"> <span itemprop="name" class="hidden">Community governance</span> <a href="mailto:CommunityGovernance@cheshireeast.gov.uk"><span itemprop="email">CommunityGovernance@cheshireeast.gov.uk</span></a>
+</div>

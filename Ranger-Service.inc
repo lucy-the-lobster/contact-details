@@ -1,0 +1,2 @@
+﻿<h2>Contact us</h2>
+<p><a class="email" title="Email Countryside Ranger Service at Astbury Mere Country Park" href="mailto:astbury@cheshireeast.gov.uk">Email Countryside Ranger Service</a><br /> <br /> 01260 297237</p>

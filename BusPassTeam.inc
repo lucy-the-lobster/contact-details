@@ -1,0 +1,2 @@
+﻿<p>For Bus and Train times call <strong>Traveline 0871 200 22 33</strong> calls cost 12p per minute plus your phone company's access charge.</p>
+<p>The English Traveline call centre opening hours are 7am to 10pm most days. You can find full details on <a title="(external link)" href="https://www.traveline.info">Traveline's website</a>.</p>
