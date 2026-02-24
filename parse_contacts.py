@@ -21,7 +21,7 @@ def extract_address_parts(text):
     building_pattern = r'\b(?:House|Building|Centre|Office|Suite|Floor|Level)\b'
     
     # Common town names
-    common_towns = [r'\bMacclesfield\b', r'\bCrewe\b', r'\bCheshire\b']
+    common_towns = [r'\bMacclesfield\b', r'\bCrewe\b']
     
     postcode = None
     street = None
@@ -95,7 +95,7 @@ def parse_html_file(filepath):
     postcode = address_parts['postcode']
     
     # Extract emails
-    email_pattern = r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})\b'
+    email_pattern = r'\b([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})\b'
     emails = re.findall(email_pattern, content)
     email_list = [{'label': None, 'email': email} for email in emails]
     
