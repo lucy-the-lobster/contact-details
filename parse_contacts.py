@@ -6,27 +6,70 @@ from pathlib import Path
 
 def camel_to_title(name):
     """Convert CamelCase to Title Case"""
-    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
-    return re.sub('([a-z0-9])([A-Z])', r'\1 \2', s1).title()
+    s1 = re.sub(r'(.)([A-Z][a-z]+)', r'\1 \2', name)
+    return re.sub(r'([a-z0-9])([A-Z])', r'\1 \2', s1).title()
 
-def extract_address(lines):
-    """Extract address from lines, working backwards from postcode"""
+def extract_address_parts(text):
+    """Extract address components from text"""
+    # Postcode pattern
     postcode_pattern = r'\b([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z]))))\s?[0-9][A-Za-z]{2})\b'
     
-    postcode = None
-    address_lines = []
+    # Street pattern (contains street/road/court/avenue etc)
+    street_pattern = r'\b(?:Street|Road|Way|Close|Avenue|Drive|Crescent|Court|Terrace|Place|Lane|Gardens|Square|Park|Hill|Walk)\b'
     
-    for i, line in enumerate(reversed(lines)):
-        if re.search(postcode_pattern, line):
-            postcode = line.strip()
-            # Look backwards for address lines
-            for j in range(len(lines) - i - 1, -1, -1):
-                line_text = lines[j].strip()
-                if line_text and not re.match(postcode_pattern, line_text):
-                    address_lines.insert(0, line_text)
+    # Building pattern (contains House/Building/Centre etc)
+    building_pattern = r'\b(?:House|Building|Centre|Office|Suite|Floor|Level)\b'
+    
+    # Common town names
+    common_towns = [r'\bMacclesfield\b', r'\bCrewe\b', r'\bCheshire\b']
+    
+    postcode = None
+    street = None
+    building = None
+    city = None
+    county = None
+    
+    # Find postcode first
+    postcode_match = re.search(postcode_pattern, text)
+    if postcode_match:
+        postcode = postcode_match.group(0)
+        text = text.replace(postcode, '').strip()
+    
+    # Find street
+    street_match = re.search(street_pattern, text)
+    if street_match:
+        # Extract the street line
+        parts = text.split(street_match.group(0))
+        if len(parts) > 1:
+            street = f"{parts[0].strip()} {street_match.group(0)}".strip()
+            text = text.replace(street, '').strip()
+    
+    # Find building
+    building_match = re.search(building_pattern, text)
+    if building_match:
+        building = f"{text.split(building_match.group(0))[0].strip()} {building_match.group(0)}".strip()
+        text = text.replace(building, '').strip()
+    
+    # Find city (Macclesfield or Crewe)
+    for town_pattern in common_towns:
+        town_match = re.search(town_pattern, text)
+        if town_match:
+            city = town_match.group(0)
+            text = text.replace(city, '').strip()
+            # If Cheshire is found, set county to None
+            if 'Cheshire' in text:
+                county = None
+                text = text.replace('Cheshire', '').strip()
             break
     
-    return address_lines, postcode
+    return {
+        'postcode': postcode,
+        'street': street,
+        'building': building,
+        'city': city,
+        'county': county,
+        'remaining': text
+    }
 
 def parse_html_file(filepath):
     """Parse a single HTML file for contact information"""
@@ -37,33 +80,22 @@ def parse_html_file(filepath):
     text_content = re.sub(r'<[^>]+>', ' ', content)
     text_content = re.sub(r'\s+', ' ', text_content).strip()
     
-    # Split into lines for address extraction
-    lines = text_content.split('\n')
-    
-    # Extract address
-    address_lines, postcode = extract_address(lines)
+    # Extract address components
+    address_parts = extract_address_parts(text_content)
     
     # Basic structure
     filename = Path(filepath).stem
     entry_title = camel_to_title(filename)
     title = entry_title
     
-    address_line01 = address_lines[0] if len(address_lines) > 0 else None
-    address_line02 = address_lines[1] if len(address_lines) > 1 else None
-    
-    # Try to extract city (look for common town names)
-    city = None
-    county = None
-    common_towns = ['Macclesfield', 'Crewe', 'Cheshire']
-    for line in address_lines:
-        if any(town in line for town in common_towns):
-            city = line.strip()
-            if 'Cheshire' in line:
-                county = None  # Don't include Cheshire as county
-            break
+    address_line01 = address_parts['building']
+    address_line02 = address_parts['street']
+    city = address_parts['city']
+    county = address_parts['county']
+    postcode = address_parts['postcode']
     
     # Extract emails
-    email_pattern = r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})'
+    email_pattern = r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})\b'
     emails = re.findall(email_pattern, content)
     email_list = [{'label': None, 'email': email} for email in emails]
     
