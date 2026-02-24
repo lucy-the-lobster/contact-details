@@ -1,0 +1,39 @@
+{
+  "entryThumbnail": null,
+  "socialLinks": [],
+  "website": [
+    {
+      "label": null,
+      "website": ""
+    }
+  ],
+  "address": [
+    {
+      "country": null,
+      "city": null,
+      "county": null,
+      "postcode": null,
+      "addressLine02": null,
+      "addressLine01": null,
+      "title": null
+    }
+  ],
+  "entryTags": [],
+  "entryDescription": null,
+  "telephone": [
+    {
+      "extension": null,
+      "telephone": null,
+      "label": null
+    }
+  ],
+  "title": null,
+  "text": null,
+  "entryTitle": null,
+  "email": [
+    {
+      "label": null,
+      "email": null
+    }
+  ]
+}
