@@ -1,178 +1,130 @@
 #!/usr/bin/env python3
-"""
-Parse contact details from HTML files and output as CSV.
-Extracts: Title, Address lines, Postcode, Email, URLs, Telephone, Other info
-"""
-
 import os
+import json
 import re
-import csv
 from pathlib import Path
-from urllib.parse import urlparse
 
-def extract_contact_details(html_content):
-    """Extract contact details from HTML content."""
-    details = {
-        'email': '',
-        'telephone': '',
-        'address_lines': [],
-        'postcode': '',
-        'urls': set(),
-        'other': []
-    }
+def camel_to_title(name):
+    """Convert CamelCase to Title Case"""
+    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1 \2', name)
+    return re.sub('([a-z0-9])([A-Z])', r'\1 \2', s1).title()
+
+def extract_address(lines):
+    """Extract address from lines, working backwards from postcode"""
+    postcode_pattern = r'\b([Gg][Ii][Rr] 0[Aa]{2})|((([A-Za-z][0-9]{1,2})|(([A-Za-z][A-Ha-hJ-Yj-y][0-9]{1,2})|(([A-Za-z][0-9][A-Za-z])|([A-Za-z][A-Ha-hJ-Yj-y][0-9]?[A-Za-z]))))\s?[0-9][A-Za-z]{2})\b'
     
-    # Parse emails
-    email_pattern = r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}'
-    emails = re.findall(email_pattern, html_content)
-    if emails:
-        details['email'] = emails[0]
+    postcode = None
+    address_lines = []
     
-    # Parse telephone numbers
-    phone_pattern = r'\b(?:01\d{3,4}|02\d{3,4}|\+44)\s?[\d\s()+-]{8,}\b'
-    phones = re.findall(phone_pattern, html_content)
-    if phones:
-        details['telephone'] = phones[0].strip()
+    for i, line in enumerate(reversed(lines)):
+        if re.search(postcode_pattern, line):
+            postcode = line.strip()
+            # Look backwards for address lines
+            for j in range(len(lines) - i - 1, -1, -1):
+                line_text = lines[j].strip()
+                if line_text and not re.match(postcode_pattern, line_text):
+                    address_lines.insert(0, line_text)
+            break
     
-    # Parse postcodes (UK format)
-    postcode_pattern = r'\b[A-Z]{1,2}\d[A-Z\d]?\s?\d[A-Z]{2}\b'
-    postcodes = re.findall(postcode_pattern, html_content)
-    if postcodes:
-        details['postcode'] = postcodes[0].strip()
-    
-    # Parse URLs from href attributes
-    url_pattern = r'href=["\']([^"\']+)["\']'
-    url_matches = re.findall(url_pattern, html_content)
-    for url in url_matches:
-        if not url.startswith('mailto:'):
-            # Remove query strings
-            parsed = urlparse(url)
-            base_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path}" if parsed.scheme else url
-            base_url = base_url.rstrip('/')
-            if base_url:
-                details['urls'].add(base_url)
-    
-    # Extract address information
-    # Look for streetAddress spans (can appear on multiple lines)
-    street_addr_pattern = r'<span[^>]*itemprop=["\']streetAddress["\'][^>]*>(.*?)</span>'
-    street_matches = re.findall(street_addr_pattern, html_content, re.DOTALL)
-    for match in street_matches:
-        # Remove nested tags and split by <br>
-        text = re.sub(r'<[^>]+>', '', match)
-        # Split on <br> or newlines
-        text = re.sub(r'<br\s*/?>', '\n', text)
-        for part in text.split('\n'):
-            part = part.strip()
-            if part and part not in details['address_lines']:
-                details['address_lines'].append(part)
-    
-    # Look for addressLocality
-    locality_pattern = r'<span[^>]*itemprop=["\']addressLocality["\'][^>]*>(.*?)</span>'
-    locality_matches = re.findall(locality_pattern, html_content)
-    for match in locality_matches:
-        text = re.sub(r'<[^>]+>', '', match).strip()
-        if text and text not in details['address_lines']:
-            details['address_lines'].append(text)
-    
-    # Look for addressRegion
-    region_pattern = r'<span[^>]*itemprop=["\']addressRegion["\'][^>]*>(.*?)</span>'
-    region_matches = re.findall(region_pattern, html_content)
-    for match in region_matches:
-        text = re.sub(r'<[^>]+>', '', match).strip()
-        if text and text not in details['address_lines']:
-            details['address_lines'].append(text)
-    
-    # Extract other useful information (department/service names, etc.)
-    text_content = html_content
-    # Remove script tags
-    text_content = re.sub(r'<script[^>]*>.*?</script>', '', text_content, flags=re.DOTALL)
-    # Remove HTML tags
-    text_content = re.sub(r'<[^>]+>', '', text_content)
-    # Remove extra whitespace
-    text_content = re.sub(r'\s+', ' ', text_content)
-    
-    # Extract proper nouns and service names
-    other_terms = set()
-    # Look for sequences of capitalized words (potential service names)
-    for match in re.finditer(r'\b([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\b', text_content):
-        word = match.group(1)
-        # Filter out common words
-        if word not in ['Address', 'Service', 'Management', 'Email', 'Phone', 'Cheshire', 'East', 'Council', 'Contact', 'Team', 'Division']:
-            other_terms.add(word)
-    
-    if other_terms:
-        details['other'] = sorted(list(other_terms))[:3]
-    
-    return details
+    return address_lines, postcode
 
 def parse_html_file(filepath):
-    """Parse a single HTML file and extract contact details."""
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            html_content = f.read()
-        
-        return extract_contact_details(html_content)
-    except Exception as e:
-        print(f"Error parsing {filepath}: {e}")
-        return None
-
-def process_all_files(directory):
-    """Process all HTML files in the directory."""
-    results = []
-    html_files = sorted(Path(directory).glob('*.html'))
+    """Parse a single HTML file for contact information"""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
     
+    # Extract text content (strip HTML tags)
+    text_content = re.sub(r'<[^>]+>', ' ', content)
+    text_content = re.sub(r'\s+', ' ', text_content).strip()
+    
+    # Split into lines for address extraction
+    lines = text_content.split('\n')
+    
+    # Extract address
+    address_lines, postcode = extract_address(lines)
+    
+    # Basic structure
+    filename = Path(filepath).stem
+    entry_title = camel_to_title(filename)
+    title = entry_title
+    
+    address_line01 = address_lines[0] if len(address_lines) > 0 else None
+    address_line02 = address_lines[1] if len(address_lines) > 1 else None
+    
+    # Try to extract city (look for common town names)
+    city = None
+    county = None
+    common_towns = ['Macclesfield', 'Crewe', 'Cheshire']
+    for line in address_lines:
+        if any(town in line for town in common_towns):
+            city = line.strip()
+            if 'Cheshire' in line:
+                county = None  # Don't include Cheshire as county
+            break
+    
+    # Extract emails
+    email_pattern = r'([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})'
+    emails = re.findall(email_pattern, content)
+    email_list = [{'label': None, 'email': email} for email in emails]
+    
+    # Extract telephone numbers
+    phone_pattern = r'\b(?:0\d{10}|\+44\d{10}|\(0\d{2}\)\s*\d{3}\s*\d{4}|0\d{4}\s*\d{3}\s*\d{3})\b'
+    phones = re.findall(phone_pattern, content)
+    phone_list = [{'label': None, 'telephone': phone} for phone in phones]
+    
+    # Extract website (keep before &pageTitle)
+    website_pattern = r'https?://[^\s"\']+(?=&pageTitle|&|$)'
+    website = re.search(website_pattern, content)
+    website_url = website.group(0) if website else None
+    website_list = [{'label': None, 'website': website_url}] if website_url else []
+    
+    # Create JSON structure
+    contact = {
+        "entryThumbnail": None,
+        "socialLinks": [],
+        "website": website_list,
+        "address": [{
+            "country": None,
+            "city": city,
+            "county": county,
+            "postcode": postcode,
+            "addressLine02": address_line02,
+            "addressLine01": address_line01,
+            "title": title
+        }],
+        "entryTags": [],
+        "entryDescription": None,
+        "telephone": phone_list,
+        "title": title,
+        "text": text_content,
+        "entryTitle": entry_title,
+        "email": email_list
+    }
+    
+    return contact
+
+def main():
+    """Main function to parse all HTML files"""
+    html_dir = Path(".")
+    html_files = sorted(html_dir.glob("*.html"))
+    
+    print(f"Processing {len(html_files)} HTML files...")
+    
+    contacts = []
     for html_file in html_files:
-        if html_file.name in ['.gitignore', 'test.html']:
-            continue
-        
-        title = html_file.stem
-        contacts = parse_html_file(html_file)
-        
-        if contacts:
-            # Pad address lines to 3
-            addr_lines = contacts['address_lines']
-            while len(addr_lines) < 3:
-                addr_lines.append('')
-            
-            result = {
-                'Title': title,
-                'Address Line 1': addr_lines[0] if len(addr_lines) > 0 else '',
-                'Address Line 2': addr_lines[1] if len(addr_lines) > 1 else '',
-                'Address Line 3': addr_lines[2] if len(addr_lines) > 2 else '',
-                'Postcode': contacts['postcode'],
-                'Email': contacts['email'],
-                'URLs': ', '.join(sorted(contacts['urls'])) if contacts['urls'] else '',
-                'Telephone': contacts['telephone'],
-                'Other Information': '; '.join(contacts['other']) if contacts['other'] else ''
-            }
-            results.append(result)
+        try:
+            contact = parse_html_file(html_file)
+            contacts.append(contact)
+            print(f"✓ Processed {html_file.name}")
+        except Exception as e:
+            print(f"✗ Error processing {html_file.name}: {e}")
     
-    return results
+    # Save to JSON
+    output_file = "contact_details.json"
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(contacts, f, indent=2, ensure_ascii=False)
+    
+    print(f"\n✓ Saved {len(contacts)} records to {output_file}")
 
-def save_csv(results, output_file):
-    """Save results to CSV file."""
-    fieldnames = [
-        'Title',
-        'Address Line 1',
-        'Address Line 2',
-        'Address Line 3',
-        'Postcode',
-        'Email',
-        'URLs',
-        'Telephone',
-        'Other Information'
-    ]
-    
-    with open(output_file, 'w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(results)
-    
-    print(f"✓ Saved {len(results)} records to {output_file}")
-
-if __name__ == '__main__':
-    directory = os.path.dirname(os.path.abspath(__file__))
-    output_file = os.path.join(directory, 'contact_details.csv')
-    
-    print(f"Processing HTML files from {directory}...")
-    results = process_all_files(directory)
-    save_csv(results, output_file)
+if __name__ == "__main__":
+    main()
