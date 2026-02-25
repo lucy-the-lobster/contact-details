@@ -4,16 +4,16 @@ export const allEntries = [
     email: [
       {
         label: null,
-        email: "ExclusionsCE@cheshireeast.gov.uk"
-      }
+        email: "ExclusionsCE@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 375255",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Exclusions",
@@ -33,15 +33,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:28.90583Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -56,7 +56,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -69,18 +69,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "CommunityGovernance@cheshireeast.gov.uk"
-      }
+        email: "CommunityGovernance@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -102,15 +100,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:20.2567509Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -125,7 +123,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -138,10 +136,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -152,8 +148,8 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [],
     socialLinks: [],
@@ -161,20 +157,17 @@ export const allEntries = [
       {
         label: null,
         telephone: "0300 123 5025",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Report an issue online via traCE. If the issue is a danger to life, call the Highways Customer Services Team.",
     title: "Contact Highways",
     website: [
       {
-        label: "Report a problem online",
-        website: "https://fixmystreet.cheshireeast.gov.uk/"
-      },
-      {
         label: "Report an issue on traCE",
-        website: "https://www.cheshireeast.gov.uk/council_and_democracy/council_information/website_information/trace.aspx"
-      }
+        website:
+          "https://www.cheshireeast.gov.uk/council_and_democracy/council_information/website_information/trace.aspx",
+      },
     ],
     entryTitle: "Contact Highways",
     entryDescription: null,
@@ -191,15 +184,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:31.7570115Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -214,7 +207,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -227,36 +220,34 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "ncrm@childrenssociety.org.uk"
+        email: "ncrm@childrenssociety.org.uk",
       },
       {
         label: null,
-        email: "participation@cheshireeast.gov.uk"
-      }
+        email: "participation@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
-    text: "Facebook: November Children's Rights Month. Twitter: @cheshireeast.",
+    text: null,
     title: "Contact November Childrens Rights Month",
     website: [
       {
         label: "Facebook -November children’s rights month",
-        website: "https://en-gb.facebook.com/CheshireEastCouncil/"
+        website: "https://en-gb.facebook.com/CheshireEastCouncil/",
       },
       {
-        label: "@cheshireeast",
-        website: "https://twitter.com/cheshireeast"
-      }
+        label: "X.com @cheshireeast",
+        website: "https://twitter.com/cheshireeast",
+      },
     ],
     entryTitle: "Contact November Childrens Rights Month",
     entryDescription: null,
@@ -273,15 +264,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:36.7569853Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -296,7 +287,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -309,26 +300,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "planningpolicy@cheshireeast.gov.uk"
-      }
+        email: "planningpolicy@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685893",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Spatial Planning Team",
@@ -348,15 +337,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:49.4185483Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -371,7 +360,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -384,10 +373,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -399,8 +386,8 @@ export const allEntries = [
     website: [
       {
         label: "Traveline's website",
-        website: "https://www.traveline.info"
-      }
+        website: "https://www.traveline.info",
+      },
     ],
     entryTitle: "Contact Bus Pass Team",
     entryDescription: null,
@@ -417,15 +404,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:12.7524867Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -440,7 +427,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -453,31 +440,29 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "communities@cheshireeast.gov.uk"
-      }
+        email: "communities@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685809",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "01270 685880",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Connected Communities",
@@ -497,15 +482,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:55.3940198Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -520,7 +505,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -533,10 +518,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -547,22 +530,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "licensing@cheshireeast.gov.uk"
-      }
+        email: "licensing@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "0300 123 5015",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Customer Service Team available 8:30am–5pm, Monday–Friday. If unable to use online forms, call during office hours.",
     title: "Contact Licensingwith Contact Centres",
@@ -582,15 +565,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:35.2817879Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -605,7 +588,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -618,18 +601,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "info@cheshireeast.gov.uk"
-      }
+        email: "info@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -638,8 +619,9 @@ export const allEntries = [
     website: [
       {
         label: "Report an issue",
-        website: "https://www.cheshireeast.gov.uk/leisure,_culture_and_tourism/parks_and_gardens/grounds-maintenance.aspx"
-      }
+        website:
+          "https://www.cheshireeast.gov.uk/leisure,_culture_and_tourism/parks_and_gardens/grounds-maintenance.aspx",
+      },
     ],
     entryTitle: "Contact Park Enquiries",
     entryDescription: null,
@@ -656,15 +638,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:38.2799496Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -679,7 +661,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -692,10 +674,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -705,13 +685,13 @@ export const allEntries = [
       {
         label: null,
         telephone: "01260 375499",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "01270 686601",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Animal Movement",
@@ -731,15 +711,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:07.9257198Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -754,7 +734,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -767,10 +747,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -781,22 +759,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "theautismteam@cheshireeast.gov.uk"
-      }
+        email: "theautismteam@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685960",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Autism Team",
@@ -816,15 +794,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:09.7636936Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -839,7 +817,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -852,36 +830,35 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
       {
         title: "Send",
-        addressLine01: "Floor 1, Macclesfield Town Hall, C/O Municipal Buildings",
+        addressLine01:
+          "Floor 1, Macclesfield Town Hall, C/O Municipal Buildings",
         addressLine02: "Earle Street",
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "senteam@cheshireeast.gov.uk"
-      }
+        email: "senteam@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01625 378042",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Send",
@@ -901,15 +878,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:46.8311977Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -924,7 +901,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -937,10 +914,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -951,14 +926,14 @@ export const allEntries = [
         city: "Middlewich",
         county: null,
         country: null,
-        postcode: "CW10 0JR"
-      }
+        postcode: "CW10 0JR",
+      },
     ],
     email: [
       {
         label: null,
-        email: "buspassreplacements@transportservicesolutions.co.uk"
-      }
+        email: "buspassreplacements@transportservicesolutions.co.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -967,8 +942,8 @@ export const allEntries = [
     website: [
       {
         label: "Traveline's website",
-        website: "https://www.traveline.info"
-      }
+        website: "https://www.traveline.info",
+      },
     ],
     entryTitle: "Contact Cheshire East Transport",
     entryDescription: null,
@@ -985,15 +960,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:15.7566955Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1008,7 +983,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1021,10 +996,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -1035,22 +1008,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "childemployment@cheshireeast.gov.uk"
-      }
+        email: "childemployment@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686199",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Child Employment",
@@ -1070,15 +1043,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:17.2658725Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1093,7 +1066,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1106,26 +1079,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "andrew.latham@cheshireeast.gov.uk"
-      }
+        email: "andrew.latham@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686785",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Outdoor Events Manager",
@@ -1145,15 +1116,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:37.7570019Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1168,7 +1139,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1181,10 +1152,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -1195,14 +1164,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "HighwaysDM@cheshireeast.gov.uk"
-      }
+        email: "HighwaysDM@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1224,15 +1193,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:31.2525236Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1247,7 +1216,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1260,18 +1229,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "cheshireeasttraffic@cheshireeast.gov.uk"
-      }
+        email: "cheshireeasttraffic@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1293,15 +1260,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:52.7310781Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1316,7 +1283,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1329,10 +1296,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -1343,14 +1308,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "electoral.information@cheshireeast.gov.uk"
-      }
+        email: "electoral.information@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1372,15 +1337,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:26.2610571Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1395,7 +1360,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1408,18 +1373,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "randc@cheshireeast.gov.uk"
-      }
+        email: "randc@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1441,15 +1404,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:45.7746054Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1464,7 +1427,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1477,18 +1440,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "ASBTeam@cheshireeast.gov.uk"
-      }
+        email: "ASBTeam@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1510,15 +1471,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:08.818392Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1533,7 +1494,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1546,26 +1507,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "astbury@cheshireeast.gov.uk"
-      }
+        email: "astbury@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01260 297237",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Ranger Service",
@@ -1585,15 +1544,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:44.3613246Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1608,7 +1567,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1621,10 +1580,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -1635,22 +1592,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "admissions@cheshireeast.gov.uk"
-      }
+        email: "admissions@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "0300 123 5012",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Select option 1 when calling.",
     title: "Contact School Admissions",
@@ -1670,15 +1627,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:47.2721753Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1693,7 +1650,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1706,18 +1663,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "procurement@cheshireeast.gov.uk"
-      }
+        email: "procurement@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1739,15 +1694,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:22.2730028Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1762,7 +1717,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1775,26 +1730,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "property@cheshireeast.gov.uk"
-      }
+        email: "property@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686888",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Business Generation Centres",
@@ -1814,15 +1767,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:13.308644Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1837,7 +1790,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1850,18 +1803,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "letusknow@cheshireeast.gov.uk"
-      }
+        email: "letusknow@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1869,9 +1820,9 @@ export const allEntries = [
     title: "Contact Let Us Know",
     website: [
       {
-        label: "complaint option on the feedback form",
-        website: "https://form.cheshireeast.gov.uk/service/feedback_form"
-      }
+        label: "Feedback form",
+        website: "https://form.cheshireeast.gov.uk/service/feedback_form",
+      },
     ],
     entryTitle: "Contact Let Us Know",
     entryDescription: null,
@@ -1888,15 +1839,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:34.2577317Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1911,7 +1862,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1924,18 +1875,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "SOCS@cheshireeast.gov.uk"
-      }
+        email: "SOCS@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -1957,15 +1906,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:48.3154952Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -1980,7 +1929,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -1993,18 +1942,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "info@helptobuynw.org.uk"
-      }
+        email: "info@helptobuynw.org.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2026,15 +1973,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:30.7642402Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2049,7 +1996,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2062,18 +2009,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "info@cheshireeast.gov.uk"
-      }
+        email: "info@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2095,15 +2040,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:42.8680272Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2118,7 +2063,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2131,10 +2076,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -2145,14 +2088,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 9JH"
-      }
+        postcode: "CW1 9JH",
+      },
     ],
     email: [
       {
         label: null,
-        email: "benefits@cheshireeast.gov.uk"
-      }
+        email: "benefits@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2160,13 +2103,10 @@ export const allEntries = [
     title: "Contact Benefits Section",
     website: [
       {
-        label: null,
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_benefits"
-      },
-      {
         label: "Contact Benefits form",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_benefits&Service=DTC0001967GBFRF1"
-      }
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_benefits&Service=DTC0001967GBFRF1",
+      },
     ],
     entryTitle: "Contact Benefits Section",
     entryDescription: null,
@@ -2183,15 +2123,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:10.2661335Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2206,7 +2146,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2219,26 +2159,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "privatehousing@cheshireeast.gov.uk"
-      }
+        email: "privatehousing@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "0300 123 5017",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Select option 4 when calling.",
     title: "Contact Housing Standards Team",
@@ -2258,15 +2196,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:32.7771595Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2281,7 +2219,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2294,10 +2232,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -2308,22 +2244,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "addressmanagement@cheshireeast.gov.uk"
-      }
+        email: "addressmanagement@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686770",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Address Management",
@@ -2343,15 +2279,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:06.3966559Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2366,7 +2302,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2379,18 +2315,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "commercialservices@cheshireeast.gov.uk"
-      }
+        email: "commercialservices@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2412,15 +2346,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:27.7567969Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2435,7 +2369,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2448,18 +2382,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "landquality@cheshireeast.gov.uk"
-      }
+        email: "landquality@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2481,15 +2413,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:43.3880739Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2504,7 +2436,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2517,18 +2449,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "schooltransport@cheshireeast.gov.uk"
-      }
+        email: "schooltransport@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2550,15 +2480,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:48.7717713Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2573,7 +2503,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2586,26 +2516,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "lowcosthomeownership@cheshireeast.gov.uk"
-      }
+        email: "lowcosthomeownership@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685646",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Affordable Housing",
@@ -2625,15 +2553,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:06.7894488Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2648,7 +2576,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2661,26 +2589,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "careandrepair@cheshireeast.gov.uk"
-      }
+        email: "careandrepair@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "0300 123 5017",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Select option 4 when calling.",
     title: "Contact Care and Repair",
@@ -2700,15 +2626,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:14.7524938Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2723,7 +2649,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2736,18 +2662,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "housingoptions@cheshireeast.gov.uk"
-      }
+        email: "housingoptions@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2769,15 +2693,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:32.258882Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2792,7 +2716,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2805,10 +2729,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -2819,22 +2741,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "BuildingControl@cheshireeast.gov.uk"
-      }
+        email: "BuildingControl@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 375256",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Building Control",
@@ -2854,15 +2776,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:11.7999282Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2877,7 +2799,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2890,10 +2812,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -2904,14 +2824,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 9HP"
-      }
+        postcode: "CW1 9HP",
+      },
     ],
     email: [
       {
         label: null,
-        email: "planning@cheshireeast.gov.uk"
-      }
+        email: "planning@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -2933,15 +2853,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:24.2411353Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -2956,7 +2876,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -2969,18 +2889,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "PlanningTrees@cheshireeast.gov.uk"
-      }
+        email: "PlanningTrees@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3002,15 +2920,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:53.2353768Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3025,7 +2943,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3038,18 +2956,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "mobilechildrenscentre@cheshireeast.gov.uk"
-      }
+        email: "mobilechildrenscentre@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3071,15 +2987,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:54.7572469Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3094,7 +3010,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3107,26 +3023,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "fireadvicecheshireeast@cheshirefire.gov.uk"
-      }
+        email: "fireadvicecheshireeast@cheshirefire.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 213246",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Community Fire Protection",
@@ -3146,15 +3060,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:20.7758669Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3169,7 +3083,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3182,26 +3096,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "PlanningPolicy@cheshireeast.gov.uk"
-      }
+        email: "PlanningPolicy@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685893",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Strategic Housing Land Availability Assessment Team",
@@ -3221,15 +3133,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:50.2864177Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3244,7 +3156,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3257,18 +3169,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "tradingstandards@cheshireeast.gov.uk"
-      }
+        email: "tradingstandards@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3290,15 +3200,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:52.2716541Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3313,7 +3223,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3326,26 +3236,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "d.smith@cheshireeast.gov.uk"
-      }
+        email: "d.smith@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01625 383771",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Town Centre Management",
@@ -3365,15 +3273,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:51.9871918Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3388,7 +3296,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3401,18 +3309,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "crewegreenroundabout@cheshireeast.gov.uk"
-      }
+        email: "crewegreenroundabout@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3434,15 +3340,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:23.7566879Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3457,7 +3363,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3470,26 +3376,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "neighbourhoods@cheshireeast.gov.uk"
-      }
+        email: "neighbourhoods@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685893",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Neighbourhood Planning Team",
@@ -3509,15 +3413,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:36.2570998Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3532,7 +3436,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3545,18 +3449,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "dogwardens@cheshireeast.gov.uk"
-      }
+        email: "dogwardens@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3578,15 +3480,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:24.7625245Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3601,7 +3503,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3614,18 +3516,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "adoptionenquiries@adoptioncounts.org.uk"
-      }
+        email: "adoptionenquiries@adoptioncounts.org.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3634,8 +3534,8 @@ export const allEntries = [
     website: [
       {
         label: "Adoption enquiry form",
-        website: "https://www.adoptioncounts.org.uk/get-in-touch"
-      }
+        website: "https://www.adoptioncounts.org.uk/get-in-touch",
+      },
     ],
     entryTitle: "Contact Adoption",
     entryDescription: null,
@@ -3652,15 +3552,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:06.3809854Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3675,7 +3575,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3688,10 +3588,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -3702,14 +3600,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "licensing@cheshireeast.gov.uk"
-      }
+        email: "licensing@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3718,8 +3616,9 @@ export const allEntries = [
     website: [
       {
         label: "Customer Service Centres",
-        website: "https://www.cheshireeast.gov.uk/council_and_democracy/customer-services/contact_us.aspx#Customerservicecentre"
-      }
+        website:
+          "https://www.cheshireeast.gov.uk/council_and_democracy/customer-services/contact_us.aspx#Customerservicecentre",
+      },
     ],
     entryTitle: "Contact Cheshire Licensing",
     entryDescription: null,
@@ -3736,15 +3635,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:16.7617311Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3759,7 +3658,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3772,10 +3671,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -3786,30 +3683,31 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2BB"
-      }
+        postcode: "CW1 2BB",
+      },
     ],
     email: [
       {
         label: "Email:",
-        email: "crewe.library@cheshireeast.gov.uk"
-      }
+        email: "crewe.library@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: "Phone:",
         telephone: "01270 375 295",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Crewe Library",
     website: [
       {
-        label: null,
-        website: "https://www.cheshireeast.gov.uk/libraries/nearest-library/crewe_library.aspx"
-      }
+        label: "Crewe Library",
+        website:
+          "https://www.cheshireeast.gov.uk/libraries/nearest-library/crewe_library.aspx",
+      },
     ],
     entryTitle: "Crewe Library",
     entryDescription: null,
@@ -3828,15 +3726,15 @@ export const allEntries = [
           "draft.sysSetUnpublishSchedule",
           "draft.sysUnpublish",
           "draft.sysUnpublishScheduleInvoke",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-20T13:19:12.2335284Z",
           invokedBy: "m.tranter",
           from: "versionComplete",
           event: "sysUpdate",
-          data: {}
-        }
+          data: {},
+        },
       },
       metadata: {},
       version: {
@@ -3851,7 +3749,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "1.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: true,
@@ -3864,22 +3762,20 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "housingpolicy@cheshire.gov.uk"
+        email: "housingpolicy@cheshire.gov.uk",
       },
       {
         label: null,
-        email: "housingpolicycec@cheshireeast.gov.uk"
-      }
+        email: "housingpolicycec@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3901,15 +3797,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:49.7570751Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -3924,7 +3820,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -3937,18 +3833,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "info@cheshireeast.gov.uk"
-      }
+        email: "info@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -3956,13 +3850,10 @@ export const allEntries = [
     title: "Contact Bowling Greens",
     website: [
       {
-        label: null,
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us"
-      },
-      {
         label: "Comment about a bowling green",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us&Service=DTC0001974GBFRF1"
-      }
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us&Service=DTC0001974GBFRF1",
+      },
     ],
     entryTitle: "Contact Bowling Greens",
     entryDescription: null,
@@ -3979,15 +3870,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:11.2582263Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4002,7 +3893,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4015,18 +3906,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "property@cheshireeast.gov.uk"
-      }
+        email: "property@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -4048,15 +3937,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:09.2750414Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4071,7 +3960,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4084,10 +3973,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -4098,22 +3985,22 @@ export const allEntries = [
         city: "Macclesfield",
         county: null,
         country: null,
-        postcode: "SK10 1EA"
-      }
+        postcode: "SK10 1EA",
+      },
     ],
     email: [
       {
         label: null,
-        email: "supportedemployment@cheshireeast.gov.uk"
-      }
+        email: "supportedemployment@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01260 375468",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Supported Employment",
@@ -4133,15 +4020,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:50.945404Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4156,7 +4043,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4169,10 +4056,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -4182,20 +4067,17 @@ export const allEntries = [
       {
         label: null,
         telephone: "0300 123 5011",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Customer Service Team available 8:30am–5pm, Monday–Friday. If unable to use the online form, call during office hours.",
     title: "Contact Waste and Recycling",
     website: [
       {
-        label: null,
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us"
-      },
-      {
         label: "Contact us about waste and recycling",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us&Service=DTC0001982GBFRF1"
-      }
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us&Service=DTC0001982GBFRF1",
+      },
     ],
     entryTitle: "Contact Waste and Recycling",
     entryDescription: null,
@@ -4212,15 +4094,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:54.3074756Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4235,7 +4117,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4248,10 +4130,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -4262,8 +4142,8 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 9JH"
-      }
+        postcode: "CW1 9JH",
+      },
     ],
     email: [],
     socialLinks: [],
@@ -4272,9 +4152,10 @@ export const allEntries = [
     title: "Contact Business Rates",
     website: [
       {
-        label: "Contact us about Business Rates enquiry form",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_business_rates"
-      }
+        label: "Business Rates enquiry form",
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_business_rates",
+      },
     ],
     entryTitle: "Contact Business Rates",
     entryDescription: null,
@@ -4291,15 +4172,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:13.7808007Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4314,7 +4195,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4327,18 +4208,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "careandrepair@cheshireeast.gov.uk"
-      }
+        email: "careandrepair@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -4360,15 +4239,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:30.2603802Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4383,7 +4262,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4396,10 +4275,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -4410,14 +4287,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "schoolgovernance@cheshireeast.gov.uk"
-      }
+        email: "schoolgovernance@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -4439,15 +4316,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:47.7916755Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4462,7 +4339,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4475,10 +4352,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -4489,26 +4364,26 @@ export const allEntries = [
         city: "Middlewich",
         county: null,
         country: null,
-        postcode: "CW10 0JR"
-      }
+        postcode: "CW10 0JR",
+      },
     ],
     email: [
       {
         label: null,
-        email: "activetravel@cheshireeast.gov.uk"
+        email: "activetravel@cheshireeast.gov.uk",
       },
       {
         label: null,
-        email: "transportpolicy@cheshireeast.gov.uk"
-      }
+        email: "transportpolicy@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686349",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Office hours: Monday–Friday, 8:30am–5pm. For bus and train times call Traveline 0871 200 22 33 (calls cost 10p per minute plus network extras). Open 7 days a week, 8am–8pm; closed Christmas Day, Boxing Day and New Year's Day.",
     title: "Contact Policy and Accessibility Team",
@@ -4528,15 +4403,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:40.7678443Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4551,7 +4426,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4564,10 +4439,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -4578,8 +4451,8 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [],
     socialLinks: [],
@@ -4602,15 +4475,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:41.8600918Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4625,7 +4498,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4638,18 +4511,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "airquality@cheshireeast.gov.uk"
-      }
+        email: "airquality@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -4671,15 +4542,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:07.8788124Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4694,7 +4565,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4707,10 +4578,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -4721,8 +4590,8 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 9JH"
-      }
+        postcode: "CW1 9JH",
+      },
     ],
     email: [],
     socialLinks: [],
@@ -4732,8 +4601,9 @@ export const allEntries = [
     website: [
       {
         label: "Contact Emergency Assistance",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_emergency_assistance"
-      }
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_emergency_assistance",
+      },
     ],
     entryTitle: "Contact Emergency Assistance",
     entryDescription: null,
@@ -4750,15 +4620,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:26.7527949Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4773,7 +4643,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4786,18 +4656,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "climatechange@cheshireeast.gov.uk"
-      }
+        email: "climatechange@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -4819,15 +4687,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:18.7746078Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4842,7 +4710,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4855,10 +4723,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -4869,8 +4735,8 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 9JH"
-      }
+        postcode: "CW1 9JH",
+      },
     ],
     email: [],
     socialLinks: [],
@@ -4879,13 +4745,10 @@ export const allEntries = [
     title: "Contact Emergency Planning",
     website: [
       {
-        label: null,
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us"
-      },
-      {
         label: "Emergency Assistance contact form",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us&Service=DTC0001967GBFRF1"
-      }
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us&Service=DTC0001967GBFRF1",
+      },
     ],
     entryTitle: "Contact Emergency Planning",
     entryDescription: null,
@@ -4902,15 +4765,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:27.2673515Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4925,7 +4788,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -4938,18 +4801,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "Partnershipfamilyhelp@cheshireeast.gov.uk"
-      }
+        email: "Partnershipfamilyhelp@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -4971,15 +4832,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:39.256768Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -4994,7 +4855,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5007,26 +4868,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "familyhelpfrontdoor@cheshireeast.gov.uk"
-      }
+        email: "familyhelpfrontdoor@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "0300 123 5012",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Select option 3, then option 1 when calling.",
     title: "Contact Common Assessment Framework",
@@ -5046,15 +4905,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:19.8761011Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5069,7 +4928,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5082,10 +4941,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -5097,8 +4954,9 @@ export const allEntries = [
     website: [
       {
         label: "Contact Public Rights of Way",
-        website: "https://www.cheshireeast.gov.uk/leisure,_culture_and_tourism/public_rights_of_way/contact_public_rights_of_way.aspx"
-      }
+        website:
+          "https://www.cheshireeast.gov.uk/leisure,_culture_and_tourism/public_rights_of_way/contact_public_rights_of_way.aspx",
+      },
     ],
     entryTitle: "Contact Public Rights Of Way Team",
     entryDescription: null,
@@ -5115,15 +4973,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:46.7999456Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5138,7 +4996,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5151,26 +5009,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "east.contingency.and.events@cheshire.pnn.police.uk"
-      }
+        email: "east.contingency.and.events@cheshire.pnn.police.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01244 614339",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Police Services",
@@ -5190,15 +5046,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:40.2622288Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5213,7 +5069,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5226,41 +5082,39 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "CHECS@cheshireeast.gov.uk"
-      }
+        email: "CHECS@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "07784492174",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "07814369297",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "07966305353",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "0300 123 5022",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Emergency Duty Team (Out of Hours): 0300 123 5022. If phone lines are out of order and there is no automated message, use the emergency mobile numbers in the telephone list.",
     title: "Contact Childrens Assessment Team",
@@ -5280,15 +5134,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:17.8155465Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5303,7 +5157,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5316,26 +5170,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "cheshirefarms@cheshirewestandchester.gov.uk"
-      }
+        email: "cheshirefarms@cheshirewestandchester.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01244 972566",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Cheshire Farms Service",
@@ -5355,15 +5207,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:16.258304Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5378,7 +5230,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5391,18 +5243,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "commercialservices@cheshireeast.gov.uk"
-      }
+        email: "commercialservices@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -5424,15 +5274,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:19.2570556Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5447,7 +5297,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5460,10 +5310,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -5474,22 +5322,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "licensing@cheshireeast.gov.uk"
-      }
+        email: "licensing@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "0300 123 5015",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Customer Service Team available 8:30am–5pm, Monday–Friday. If unable to use online forms, call during office hours.",
     title: "Contact Licensing",
@@ -5509,15 +5357,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:34.7929094Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5532,7 +5380,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5545,10 +5393,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -5558,8 +5404,8 @@ export const allEntries = [
       {
         label: null,
         telephone: "01625 383742",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Borough Nature Conservation Officer",
@@ -5579,15 +5425,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:10.770734Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5602,7 +5448,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5615,18 +5461,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "Assets@cheshireeast.gov.uk"
-      }
+        email: "Assets@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -5648,15 +5492,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:42.4596691Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5671,7 +5515,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5684,18 +5528,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "animalhealthandwelfare@cheshireeast.gov.uk"
-      }
+        email: "animalhealthandwelfare@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -5717,15 +5559,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:08.2685854Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5740,7 +5582,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5753,18 +5595,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "built.heritage@cheshireeast.gov.uk"
-      }
+        email: "built.heritage@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -5786,15 +5626,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:12.2524321Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5809,7 +5649,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5822,10 +5662,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -5836,14 +5674,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 9JH"
-      }
+        postcode: "CW1 9JH",
+      },
     ],
     email: [
       {
         label: null,
-        email: "freeschoolmeals@cheshireeast.gov.uk"
-      }
+        email: "freeschoolmeals@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -5865,15 +5703,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:29.7390945Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5888,7 +5726,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5901,10 +5739,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -5915,8 +5751,8 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2JZ"
-      }
+        postcode: "CW1 2JZ",
+      },
     ],
     email: [],
     socialLinks: [],
@@ -5924,8 +5760,8 @@ export const allEntries = [
       {
         label: null,
         telephone: "01625 374974",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Virtual School",
@@ -5945,15 +5781,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:53.7401917Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -5968,7 +5804,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -5981,35 +5817,33 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "localplan@cheshireeast.gov.uk"
+        email: "localplan@cheshireeast.gov.uk",
       },
       {
         label: null,
-        email: "planning@cheshireeast.gov.uk"
-      }
+        email: "planning@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685893",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "0300 123 5014",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "For Local Plan matters only, contact the Local Plan Team. For all other planning enquiries (including planning application queries), contact the Planning Department.",
     title: "Contact Local Planning Team",
@@ -6029,15 +5863,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:35.7568003Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6052,7 +5886,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6065,18 +5899,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "business@cheshireeast.gov.uk"
-      }
+        email: "business@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -6098,15 +5930,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:25.7713944Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6121,7 +5953,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6134,10 +5966,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -6148,22 +5978,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2BJ"
-      }
+        postcode: "CW1 2BJ",
+      },
     ],
     email: [
       {
         label: null,
-        email: "landcharges@cheshireeast.gov.uk"
-      }
+        email: "landcharges@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686787",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "DX no: 725221 Crewe 8.",
     title: "Contact Land Charges",
@@ -6183,15 +6013,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:33.7571383Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6206,7 +6036,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6219,10 +6049,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -6232,30 +6060,30 @@ export const allEntries = [
       {
         label: null,
         telephone: "01270 685647",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "0300 123 5017",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "0845 603 4559",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "Cheshire Homechoice: 0300 123 5017. Homes Hub: 0845 603 4559. Low Cost Home Ownership: 01270 685647.",
     title: "Contact Cheshire Homechoice",
     website: [
       {
         label: "Cheshire Homechoice",
-        website: "http://www.cheshirehomechoice.org.uk/"
+        website: "http://www.cheshirehomechoice.org.uk/",
       },
       {
         label: "Homes Hub",
-        website: "http://www.helptobuynw.org.uk/"
-      }
+        website: "http://www.helptobuynw.org.uk/",
+      },
     ],
     entryTitle: "Contact Cheshire Homechoice",
     entryDescription: null,
@@ -6272,15 +6100,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:15.3101757Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6295,7 +6123,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6308,18 +6136,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "pestcontrol@cheshireeast.gov.uk"
-      }
+        email: "pestcontrol@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -6341,15 +6167,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:39.7411646Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6364,7 +6190,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6377,18 +6203,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "carparks@cheshireeast.gov.uk"
-      }
+        email: "carparks@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -6410,15 +6234,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:38.814062Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6433,7 +6257,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6446,10 +6270,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -6474,15 +6296,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:25.2568609Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6497,7 +6319,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6510,10 +6332,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -6523,16 +6343,17 @@ export const allEntries = [
       {
         label: null,
         telephone: "0300 123 5015",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Environmental Protection Nuisance Form",
     website: [
       {
         label: "Report a nuisance",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=request_a_formal_investigation_into_an_alleged_nuisance"
-      }
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=request_a_formal_investigation_into_an_alleged_nuisance",
+      },
     ],
     entryTitle: "Contact Environmental Protection Nuisance Form",
     entryDescription: null,
@@ -6549,15 +6370,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:28.3073331Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6572,7 +6393,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6585,10 +6406,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -6599,22 +6418,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "childemployment@cheshireeast.gov.uk"
-      }
+        email: "childemployment@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686199",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact School Attendance",
@@ -6634,15 +6453,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:46.8311977Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6657,7 +6476,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6670,18 +6489,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "fis.east@cheshireeast.gov.uk"
-      }
+        email: "fis.east@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -6703,15 +6520,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:29.2678794Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6726,7 +6543,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6739,18 +6556,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "SOCS@cheshireeast.gov.uk"
-      }
+        email: "SOCS@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -6772,15 +6587,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:37.3326005Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6795,7 +6610,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6808,26 +6623,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "influence@cheshireeast.gov.uk"
-      }
+        email: "influence@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685890",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Influence Cheshire East",
@@ -6847,15 +6660,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:33.3753615Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6870,7 +6683,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6883,26 +6696,24 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "communitygrants@cheshireeast.gov.uk"
-      }
+        email: "communitygrants@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 685809",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Community Grants",
@@ -6922,15 +6733,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:21.2634822Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -6945,7 +6756,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -6958,10 +6769,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -6986,15 +6795,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:21.7525578Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7009,7 +6818,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7022,18 +6831,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "creweregisteroffice@cheshireeast.gov.uk"
-      }
+        email: "creweregisteroffice@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -7055,15 +6862,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:45.3182404Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7078,7 +6885,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7091,10 +6898,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
@@ -7104,20 +6909,17 @@ export const allEntries = [
       {
         label: null,
         telephone: "0300 123 5013",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "If unable to use online forms, phone lines are available 8:30am–4pm, Monday–Friday, excluding bank holidays.",
     title: "Contact Council Tax",
     website: [
       {
-        label: null,
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_council_tax"
-      },
-      {
         label: "Council Tax enquiry form",
-        website: "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_council_tax&Service=DTC0001969GBFRF1"
-      }
+        website:
+          "https://digital-core.cheshireeast.gov.uk/w/webpage/request?form=contact_us_about_council_tax&Service=DTC0001969GBFRF1",
+      },
     ],
     entryTitle: "Contact Council Tax",
     entryDescription: null,
@@ -7134,15 +6936,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:22.7767199Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7157,7 +6959,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7170,18 +6972,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "tradingstandards@cheshireeast.gov.uk"
-      }
+        email: "tradingstandards@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -7203,15 +7003,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:14.2877894Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7226,7 +7026,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7239,46 +7039,44 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "rangers@cheshireeast.gov.uk"
-      }
+        email: "rangers@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01625 383700",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "01625 374833",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "01625 374790",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "01477 534115",
-        extension: null
+        extension: null,
       },
       {
         label: null,
         telephone: "01270 686029",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: "For Middlewood Way, Jacksons' Brickworks, Poynton Coppice and Poynton Park: 01625 383700. For Tegg's Nose Country Park: 01625 374833. For Lindow Common or Macclesfield Riverside Park: 01625 374790. For Brereton Heath LNR, Dane In Shaw Pasture SSSI, Croxton Park, Biddulph Valley Way, Timbersbrook Picnic Area, Salt Line, Borrow Pit Meadows, Wheelock Rail Trail, Merelake Way and Rode Heath Rise: 01477 534115. For Gritstone Trail: 01270 686029.",
     title: "Contact Countryside Ranger Service",
@@ -7298,15 +7096,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:23.2524988Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7321,7 +7119,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7334,10 +7132,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -7348,22 +7144,22 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: "CW1 2LL"
-      }
+        postcode: "CW1 2LL",
+      },
     ],
     email: [
       {
         label: null,
-        email: "ltp@cheshireeast.gov.uk"
-      }
+        email: "ltp@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [
       {
         label: null,
         telephone: "01270 686353",
-        extension: null
-      }
+        extension: null,
+      },
     ],
     text: null,
     title: "Contact Policy and Forward Programme Team",
@@ -7383,15 +7179,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:41.2715408Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7406,7 +7202,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7419,18 +7215,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "townandparishcouncils@cheshireeast.gov.uk"
-      }
+        email: "townandparishcouncils@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -7452,15 +7246,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:51.4024796Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7475,7 +7269,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7488,10 +7282,8 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [
@@ -7502,14 +7294,14 @@ export const allEntries = [
         city: "Crewe",
         county: null,
         country: null,
-        postcode: null
-      }
+        postcode: null,
+      },
     ],
     email: [
       {
         label: null,
-        email: "csc@cheshireeast.gov.uk"
-      }
+        email: "csc@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -7531,15 +7323,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:18.2879927Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7554,7 +7346,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7567,18 +7359,16 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
+      availableLanguages: ["en-GB"],
+    },
   },
   {
     address: [],
     email: [
       {
         label: null,
-        email: "refugeeinfo@cheshireeast.gov.uk"
-      }
+        email: "refugeeinfo@cheshireeast.gov.uk",
+      },
     ],
     socialLinks: [],
     telephone: [],
@@ -7600,15 +7390,15 @@ export const allEntries = [
           "draft.sysDelete",
           "draft.sysSetPublishSchedule",
           "draft.sysSetUnpublishSchedule",
-          "draft.sysUpdate"
+          "draft.sysUpdate",
         ],
         transition: {
           invoked: "2026-02-25T09:11:44.773865Z",
           invokedBy: "Block push API",
           from: "created",
           event: "sysUpdate",
-          data: null
-        }
+          data: null,
+        },
       },
       metadata: {},
       version: {
@@ -7623,7 +7413,7 @@ export const allEntries = [
         archivedBy: null,
         archived: null,
         versionNo: "0.1",
-        permanentDeletion: null
+        permanentDeletion: null,
       },
       owner: "s.bennett",
       isPublished: false,
@@ -7636,9 +7426,7 @@ export const allEntries = [
       dataFormat: "entry",
       language: "en-GB",
       contentTypeId: "contactCard",
-      availableLanguages: [
-        "en-GB"
-      ]
-    }
-  }
+      availableLanguages: ["en-GB"],
+    },
+  },
 ];
